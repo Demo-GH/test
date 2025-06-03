@@ -10,7 +10,7 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install flask
 
-# Make port 5000 available to the world outside this containers
+# Make port 5000 available to the world outside this containersd
 EXPOSE 5000
 
 # Define environment variable
